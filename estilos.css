@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('img/fondi.jpg');
+	background-attachment:scroll; /*fixed*/
+	background-position:center center;
+
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 30%;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+.titulo{
+    background: rgba(255, 255, 255, 0.507);
+    margin: 10px 15px;
+    padding: 5px 5px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    
+}
+
+.titulo2{
+  background-color: rgba(165, 42, 42, 0.541);
+  text-align: center;
+  padding: 20px 20px;
+  margin: 10px 15px;
+  color: #fff;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.parrafo{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(2, 77, 2, 0.685);
+    padding: 15px 10px;
+    margin: 10px 15px;
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+.btn{
+    background: rgba(255, 0, 0, 0.842);
+    padding: 15px 20px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+    border-radius: 100%;
+    font-size: 20px;
+    border-color: #fff;
+    font-family: 'Kaushan Script', sans-serif;
+}
